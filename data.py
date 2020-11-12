@@ -8,5 +8,5 @@ news = [
     News(1,"1-ci xeber","Ilk xeber sayti"),
     News(2,"2-ci xeber","Ikinci xeber sayti"),
     News(3,"3-ci xeber","Ucuncu xeber sayti"),
-    News(4,"4-ci xeber","Ucuncu xeber sayti")
+    News(4,"4-ci xeber","Dordduncu xeber sayti")
 ]
