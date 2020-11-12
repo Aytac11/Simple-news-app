@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Single</title>
+</head>
+
+<style>
+    .news{
+            width:300px;
+            padding:10px;
+            box-shadow: 0px 0px 5px black;
+</style>
+
+<body>
+
+<h2>News id: {{news_id}}</h2>
+{% for singleNews in data %}
+    {% if news_id == singleNews.id %}
+        <div class="news">
+        <h3>{{singleNews.title}}</h3>
+        <p>{{singleNews.content}}</p>
+
+        </div>
+    {% endif %}
+{% endfor %}
+
+
+</body>
+</html>
